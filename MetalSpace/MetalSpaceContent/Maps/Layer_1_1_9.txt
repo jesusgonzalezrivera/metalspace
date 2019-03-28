@@ -1,0 +1,17 @@
+﻿12 18
+-0,5 -0,5 -5
+0 1 0
+0 0 1
+Wallpaper 3
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null 1_99 Null Null Null Null Null Null Null Null 2_99 Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null
+Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null

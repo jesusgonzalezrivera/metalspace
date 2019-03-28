@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeTower2.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>pCube1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0.45 0 0.45 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -0.45 0 0.45 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube3</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -0.45 0 -0.45 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube7</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0.45 0 -0.45 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>polySurface1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Positions>0.399999976 -0.5 0.5 0.5 -0.5 0.5 0.399999976 0.5 0.5 0.5 0.5 0.5 0.399999976 0.5 0.399999976 0.5 0.5 0.399999976 0.399999976 -0.5 0.399999976 0.5 -0.5 0.399999976 -0.5 -0.5 0.5 -0.399999976 -0.5 0.5 -0.5 0.5 0.5 -0.399999976 0.5 0.5 -0.5 0.5 0.399999976 -0.399999976 0.5 0.399999976 -0.5 -0.5 0.399999976 -0.399999976 -0.5 0.399999976 -0.5 -0.5 -0.399999976 -0.399999976 -0.5 -0.399999976 -0.5 0.5 -0.399999976 -0.399999976 0.5 -0.399999976 -0.5 0.5 -0.5 -0.399999976 0.5 -0.5 -0.5 -0.5 -0.5 -0.399999976 -0.5 -0.5 0.399999976 -0.5 -0.399999976 0.5 -0.5 -0.399999976 0.399999976 0.5 -0.399999976 0.5 0.5 -0.399999976 0.399999976 0.5 -0.5 0.5 0.5 -0.5 0.399999976 -0.5 -0.5 0.5 -0.5 -0.5</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 28 31 30 34 33 32 32 35 34 38 37 36 36 39 38 42 41 40 40 43 42 46 45 44 44 47 46 50 49 48 48 51 50 54 53 52 52 55 54 58 57 56 56 59 58 62 61 60 60 63 62 66 65 64 64 67 66 70 69 68 68 71 70 74 73 72 72 75 74 78 77 76 76 79 78 82 81 80 80 83 82 86 85 84 84 87 86 90 89 88 88 91 90 94 93 92 92 95 94</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2 2 3 5 4 4 5 7 6 6 7 1 0 1 7 5 3 6 0 2 4 8 9 11 10 10 11 13 12 12 13 15 14 14 15 9 8 9 15 13 11 14 8 10 12 16 17 19 18 18 19 21 20 20 21 23 22 22 23 17 16 17 23 21 19 22 16 18 20 24 25 27 26 26 27 29 28 28 29 31 30 30 31 25 24 25 31 29 27 30 24 26 28</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.625 1 0.875 1 0.875 0.75 0.625 0.75 0.125 1 0.375 1 0.375 0.75 0.125 0.75 0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.625 1 0.875 1 0.875 0.75 0.625 0.75 0.125 1 0.375 1 0.375 0.75 0.125 0.75 0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.625 1 0.875 1 0.875 0.75 0.625 0.75 0.125 1 0.375 1 0.375 0.75 0.125 0.75 0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.625 1 0.875 1 0.875 0.75 0.625 0.75 0.125 1 0.375 1 0.375 0.75 0.125 0.75</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeTower2.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeTower1.jpg</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalSpace", "MetalSpace\MetalSpace\MetalSpace.csproj", "{68D96190-32F3-405D-B3CB-D2029EB3F97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalSpaceContent", "MetalSpace\MetalSpaceContent\MetalSpaceContent.contentproj", "{51C26D99-19E9-4C67-A730-06F73588FCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifAnimation.Pipeline", "..\..\..\..\..\..\100\XNAGifAnimation\GifAnimation.Pipeline\GifAnimation.Pipeline.csproj", "{9C683759-D9CF-423E-87B1-153097BE2820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifAnimation", "..\..\..\..\..\..\100\XNAGifAnimation\GifAnimation\GifAnimation.csproj", "{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkinnedModel", "SkinnedModel\SkinnedModel.csproj", "{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkinnedModelPipeLine", "SkinnedModelPipeLine\SkinnedModelPipeLine.csproj", "{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D96190-32F3-405D-B3CB-D2029EB3F97C}.Debug|x86.ActiveCfg = Debug|x86
+		{68D96190-32F3-405D-B3CB-D2029EB3F97C}.Debug|x86.Build.0 = Debug|x86
+		{68D96190-32F3-405D-B3CB-D2029EB3F97C}.Release|x86.ActiveCfg = Release|x86
+		{68D96190-32F3-405D-B3CB-D2029EB3F97C}.Release|x86.Build.0 = Release|x86
+		{51C26D99-19E9-4C67-A730-06F73588FCD8}.Debug|x86.ActiveCfg = Debug|x86
+		{51C26D99-19E9-4C67-A730-06F73588FCD8}.Release|x86.ActiveCfg = Release|x86
+		{9C683759-D9CF-423E-87B1-153097BE2820}.Debug|x86.ActiveCfg = Debug|x86
+		{9C683759-D9CF-423E-87B1-153097BE2820}.Debug|x86.Build.0 = Debug|x86
+		{9C683759-D9CF-423E-87B1-153097BE2820}.Release|x86.ActiveCfg = Debug|x86
+		{9C683759-D9CF-423E-87B1-153097BE2820}.Release|x86.Build.0 = Debug|x86
+		{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}.Debug|x86.ActiveCfg = Debug|x86
+		{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}.Debug|x86.Build.0 = Debug|x86
+		{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}.Release|x86.ActiveCfg = Release|x86
+		{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}.Release|x86.Build.0 = Release|x86
+		{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}.Debug|x86.ActiveCfg = Debug|x86
+		{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}.Debug|x86.Build.0 = Debug|x86
+		{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}.Release|x86.ActiveCfg = Release|x86
+		{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}.Release|x86.Build.0 = Release|x86
+		{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}.Debug|x86.ActiveCfg = Debug|x86
+		{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}.Debug|x86.Build.0 = Debug|x86
+		{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}.Release|x86.ActiveCfg = Debug|x86
+		{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

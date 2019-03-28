@@ -1,0 +1,45 @@
+﻿40 30
+-1,5 -1,5 12
+0 1 0
+0 0 1
+Tiles 3
+2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null 2_11
+2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11 2_11

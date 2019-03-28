@@ -1,0 +1,2 @@
+C:\Users\ReyLith\documents\visual studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\obj\x86\Debug\ResolveAssemblyReference.cache

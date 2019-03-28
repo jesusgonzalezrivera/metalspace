@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontBackground13.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>pCube1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.193172351 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform5</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 1 0.193172351 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder3</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 1.45689511 0.17696242 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pPlane1</Name>
+        <Transform>1 0 0 0 0 6.123234E-17 1 0 0 -1 6.123234E-17 0 1 0.5 -0.1 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform14</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 2.77555756E-17 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pPlane2</Name>
+        <Transform>1 0 0 0 0 6.123234E-17 1 0 0 -1 6.123234E-17 0 1 -0.5 -0.1 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform18</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -2.77555756E-17 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube4</Name>
+        <Transform>6.123234E-17 1 0 0 -1 6.123234E-17 0 0 0 0 1 0 1 -0.9799312 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform16</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 1.110223E-16 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube6</Name>
+        <Transform>6.123234E-17 -1 0 0 1 6.123234E-17 0 0 0 0 1 0 1 0.899 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform13</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 1.110223E-16 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder4</Name>
+        <Transform>6.123234E-17 1 0 0 -1 6.123234E-17 0 0 0 0 1 0 1 0 -0.10137371 1</Transform>
+        <Children>
+          <Child>
+            <Name>polySurface12</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>transform17</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>polySurface13</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>transform15</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>transform12</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube22</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 3 1.5 0.404326826 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform6</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube23</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 4 1.5 0.404326826 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform7</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube24</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 5 1.5 0.404326826 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform8</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder6</Name>
+        <Transform>5.523497E-17 0.9020555 0 0 -1 6.123234E-17 0 0 0 0 1.5980196 0 3 4 -0.0888838544 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform9</Name>
+            <Transform>1 2.705651E-24 0 0 3.426113E-24 1 0 0 0 0 1 0 0 4.440892E-16 7.071721E-11 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder7</Name>
+        <Transform>5.523497E-17 0.9020555 0 0 -1 6.123234E-17 0 0 0 0 1.5980196 0 4 4 -0.0888838544 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform10</Name>
+            <Transform>1 2.705651E-24 0 0 3.426113E-24 1 0 0 0 0 1 0 0 4.440892E-16 7.071721E-11 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCylinder8</Name>
+        <Transform>5.523497E-17 0.9020555 0 0 -1 6.123234E-17 0 0 0 0 1.5980196 0 5 4 -0.0888838544 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform11</Name>
+            <Transform>1 2.705651E-24 0 0 3.426113E-24 1 0 0 0 0 1 0 0 0 7.071721E-11 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>polySurface6</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>polySurface76</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>polySurface78</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                <Children>
+                  <Child Type="Graphics:MeshContent">
+                    <Name>polySurface79</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                    <Positions>-0.5 -0.5 0.51467526 0 -0.5 -0.09567317 -0.0215528011 -0.500787139 0.518489242 -0.49818325 -0.5 -0.09567317 0.4986968 -0.5 -0.09567317 0.5 -0.500787139 0.5186697</Positions>
+                    <Geometry>
+                      <Batch>
+                        <Material>#Resource1</Material>
+                        <Indices>2 1 0 0 3 2 6 5 4 4 7 6</Indices>
+                        <Vertices>
+                          <PositionIndices>1 4 5 2 0 3 1 2</PositionIndices>
+                          <Channels>
+                            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">2.26675084E-07 -0.999999166 -0.00128144911 2.266751E-07 -0.999999166 -0.00128144911 2.26675084E-07 -0.9999991 -0.00128144911 2.2667507E-07 -0.9999991 -0.001281449 -0.0008034035 -0.9999995 -0.000658151461 -0.00080340344 -0.9999994 -0.0006581514 -0.0008034035 -0.999999464 -0.000658151461 -0.0008034035 -0.999999464 -0.000658151461</VertexChannel>
+                            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.5853758 0.49281466 0.5853758 0.170664549 0.320714355 0.2574532 0.321572244 0.502071857 0.322430134 0.74669075 0.5853758 0.8149648 0.5853758 0.49281466 0.321572244 0.502071857</VertexChannel>
+                            <VertexChannel Name="TextureCoordinate1" ElementType="Framework:Vector2">0.5853758 0.49281466 0.5853758 0.170664549 0.320714355 0.2574532 0.321572244 0.502071857 0.322430134 0.74669075 0.5853758 0.8149648 0.5853758 0.49281466 0.321572244 0.502071857</VertexChannel>
+                          </Channels>
+                        </Vertices>
+                      </Batch>
+                    </Geometry>
+                  </Child>
+                  <Child>
+                    <Name>polySurface80</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                    <Children>
+                      <Child>
+                        <Name>polySurface82</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                        <Children>
+                          <Child>
+                            <Name>polySurface84</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                            <Children>
+                              <Child>
+                                <Name>transform30</Name>
+                                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                              </Child>
+                            </Children>
+                          </Child>
+                          <Child>
+                            <Name>transform29</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                          </Child>
+                        </Children>
+                      </Child>
+                      <Child>
+                        <Name>transform28</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                      </Child>
+                    </Children>
+                  </Child>
+                  <Child>
+                    <Name>transform27</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+              <Child>
+                <Name>transform26</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>transform25</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube62</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 7 -1.5 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform24</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube63</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 7 -2.5 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform23</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube64</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 6.5 -2.5 -0.402 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform22</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube65</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 6.5 -1.5 -0.402 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform21</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube66</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 7.5 -1.5 -0.401984543 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform20</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>pCube67</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 7.5 -2.5 -0.401984543 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform19</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>polySurface11</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>polySurface87</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>transform32</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>transform31</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert10</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontBackground13.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeBaseFrontBackground8.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

@@ -1,0 +1,14 @@
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModelPipeLine.dll
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModelPipeLine.pdb
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModel.dll
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\SkinnedModelPipeLine.dll
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\SkinnedModelPipeLine.pdb
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\SkinnedModelPipeLine.dll
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\obj\x86\Debug\SkinnedModelPipeLine.pdb
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModelPipeLine.dll
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModelPipeLine.pdb
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModel.dll
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModelPipeLine\bin\x86\Debug\SkinnedModel.pdb

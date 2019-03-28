@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pCube1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontColumn5Bottom.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 1</Transform>
+    <Positions>-0.375 -0.49999994 0.5 0.375 -0.49999994 0.5 -0.375 -1.50098634 0.5 0.375 -1.50098634 0.5 -0.5 -0.49999994 -0.375 -0.5 -0.49999994 0.375 -0.5 -1.50098634 -0.375 -0.5 -1.50098634 0.375 0.375 -0.49999994 -0.5 -0.375 -0.49999994 -0.5 0.375 -1.50098634 -0.5 -0.375 -1.50098634 -0.5 0.5 -0.49999994 -0.375 0.5 -0.49999994 0.375 0.5 -1.50098634 0.375 0.5 -1.50098634 -0.375</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6 1 9 8 8 0 1 2 3 10 10 11 2 14 13 12 12 15 14 16 6 7 7 17 16 20 19 18 18 21 20 22 15 12 12 23 22</Indices>
+        <Vertices>
+          <PositionIndices>15 12 13 14 3 1 0 2 10 8 3 1 6 7 5 4 5 7 10 11 9 8 9 11</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.9899495 0 -0.141421378 0.9899495 0 -0.141421378 0.9899495 0 0.141421378 0.9899495 0 0.141421378 0.141421363 0 0.9899495 0.141421363 0 0.9899495 -0.141421363 0 0.9899495 -0.141421363 0 0.9899495 0.141421363 0 -0.9899495 0.141421363 0 -0.9899495 0.141421363 0 0.9899495 0.141421363 0 0.9899495 -0.9899495 0 -0.141421378 -0.9899495 0 0.141421378 -0.9899495 0 0.141421378 -0.9899495 0 -0.141421378 -0.9899495 0 0.141421378 -0.9899495 0 0.141421378 0.141421363 0 -0.9899495 -0.141421363 0 -0.9899495 -0.141421363 0 -0.9899495 0.141421363 0 -0.9899495 -0.141421363 0 -0.9899495 -0.141421363 0 -0.9899495</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.400132626 0.9981702 0.400132626 0.54270345 0.05886928 0.54270345 0.05886928 0.9981702 0.8622293 0.9981702 0.8622293 0.54270345 0.520965934 0.54270345 0.520965934 0.9981702 0.457009852 0.9981702 0.457009852 0.54270345 0.00199203356 0.9981702 0.00199203356 0.54270345 0.656744659 0.538711965 0.998008 0.538711965 0.998008 0.08324528 0.656744659 0.08324528 0.464088678 0.54270345 0.464088678 0.9981702 0.593732059 0.08324528 0.252468646 0.08324528 0.252468646 0.538712 0.593732059 0.538712 0.5998674 0.08324528 0.5998674 0.538711965</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontColumn5Bottom.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeBaseFrontColumn5BottomTexture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

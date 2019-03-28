@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{68D96190-32F3-405D-B3CB-D2029EB3F97C}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetalSpace</RootNamespace>
+    <AssemblyName>MetalSpace</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>62f9e9ed-a05b-4920-a25d-b2098e4eb383</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DPSF">
+      <HintPath>..\DPSF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animations\ObjectAnimation.cs" />
+    <Compile Include="ArtificialIntelligence\Attacked.cs" />
+    <Compile Include="ArtificialIntelligence\Attacking.cs" />
+    <Compile Include="ArtificialIntelligence\Dying.cs" />
+    <Compile Include="ArtificialIntelligence\EnemyContext.cs" />
+    <Compile Include="ArtificialIntelligence\Following.cs" />
+    <Compile Include="ArtificialIntelligence\Inactive.cs" />
+    <Compile Include="ArtificialIntelligence\Unconscious.cs" />
+    <Compile Include="ArtificialIntelligence\WakeUp.cs" />
+    <Compile Include="Cameras\Camera.cs" />
+    <Compile Include="Cameras\ChaseCamera.cs" />
+    <Compile Include="Cameras\FreeCamera.cs" />
+    <Compile Include="Cameras\TargetCamera.cs" />
+    <Compile Include="Effects\DeferredRenderer.cs" />
+    <Compile Include="Effects\GaussianBlur.cs" />
+    <Compile Include="Effects\PostProcessor.cs" />
+    <Compile Include="Effects\QuadRenderer.cs" />
+    <Compile Include="Effects\RenderCapture.cs" />
+    <Compile Include="Events\EventData_CharactersAttack.cs" />
+    <Compile Include="Events\EventData_EquipObject.cs" />
+    <Compile Include="Events\EventData_LevelChanged.cs" />
+    <Compile Include="Events\EventData_LoadSavedGame.cs" />
+    <Compile Include="Events\EventData_LogMessage.cs" />
+    <Compile Include="Events\EventData_PickedObject.cs" />
+    <Compile Include="Events\EventData_PlaneCollision.cs" />
+    <Compile Include="Events\EventData_ReloadGun.cs" />
+    <Compile Include="Events\EventData_SaveGame.cs" />
+    <Compile Include="Events\EventData_ThrowAway.cs" />
+    <Compile Include="Events\EventData_UnequipObject.cs" />
+    <Compile Include="Events\EventData_UnitDirectionXChanged.cs" />
+    <Compile Include="Events\EventData_UnitDirectionYChanged.cs" />
+    <Compile Include="Events\EventData_UnitStateChanged.cs" />
+    <Compile Include="Events\EventData_ObjectsCollision.cs" />
+    <Compile Include="Events\EventListener_ChangePlayerObjects.cs" />
+    <Compile Include="Events\EventListener_CharactersAttack.cs" />
+    <Compile Include="Events\EventListener_LevelChanged.cs" />
+    <Compile Include="Events\EventListener_PickedObject.cs" />
+    <Compile Include="Events\EventListener_SavedGames.cs" />
+    <Compile Include="Events\EventListener_UnitCollision.cs" />
+    <Compile Include="Events\EventListener_UnitDirectionChanged.cs" />
+    <Compile Include="Events\EventListener_UnitStateChanged.cs" />
+    <Compile Include="GameScreens\ChangingGame2.cs" />
+    <Compile Include="GameScreens\DeadScreen.cs" />
+    <Compile Include="GameScreens\Equipment.cs" />
+    <Compile Include="GameScreens\GameMenuScreen.cs" />
+    <Compile Include="GameScreens\HealthBar.cs" />
+    <Compile Include="GameScreens\Inventory.cs" />
+    <Compile Include="GameScreens\InventoryScreen.cs" />
+    <Compile Include="GameScreens\LoadingGame.cs" />
+    <Compile Include="GameScreens\ChangingGame.cs" />
+    <Compile Include="GameScreens\MainGameScreen.cs" />
+    <Compile Include="Interfaces\IDrawableModel.cs" />
+    <Compile Include="Interfaces\IEventData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IEventListener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IGameLayer.cs" />
+    <Compile Include="Interfaces\IGameModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IGameSound.cs" />
+    <Compile Include="Interfaces\IGameTexture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IOptionEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IEnemyState.cs" />
+    <Compile Include="Managers\LevelManager.cs" />
+    <Compile Include="Managers\EventManager.cs" />
+    <Compile Include="Events\EventType.cs" />
+    <Compile Include="Events\EventListener_LogMessage.cs" />
+    <Compile Include="GameScreens\BackgroundScreen.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="GameScreens\ListOptionMenu.cs" />
+    <Compile Include="GameScreens\LoadGameScreen.cs" />
+    <Compile Include="GameScreens\NewGameScreen.cs" />
+    <Compile Include="GameScreens\OptionBar.cs" />
+    <Compile Include="GameScreens\NumericOptionEntry.cs" />
+    <Compile Include="GameScreens\OptionsMenu.cs" />
+    <Compile Include="GameScreens\SavedGameEntry.cs" />
+    <Compile Include="Helpers\OrderedTable.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Managers\AnimationManager.cs" />
+    <Compile Include="Managers\CameraManager.cs" />
+    <Compile Include="Managers\CanvasManager.cs" />
+    <Compile Include="Managers\EngineManager.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="GameComponents\FpsCounter.cs" />
+    <Compile Include="GameScreens\GameScreen.cs" />
+    <Compile Include="GameSettings\GameSettings.cs" />
+    <Compile Include="Managers\ModelManager.cs" />
+    <Compile Include="Managers\ParticleManager.cs" />
+    <Compile Include="Managers\ShotManager.cs" />
+    <Compile Include="Managers\SoundManager.cs" />
+    <Compile Include="Managers\ThrownObjectManager.cs" />
+    <Compile Include="Models\AnimatedModel.cs" />
+    <Compile Include="Models\DrawableModel.cs" />
+    <Compile Include="Models\GameModel.cs" />
+    <Compile Include="Objects\Ammo.cs" />
+    <Compile Include="Objects\Armature.cs" />
+    <Compile Include="Objects\Gun.cs" />
+    <Compile Include="Objects\Object.cs" />
+    <Compile Include="Objects\Weapon.cs" />
+    <Compile Include="Particle Systems\PointParticle.cs" />
+    <Compile Include="Scenes\GameLayer2D.cs" />
+    <Compile Include="Scenes\GameLayer3D.cs" />
+    <Compile Include="Scenes\OcTree.cs" />
+    <Compile Include="Scenes\OcTreeNode.cs" />
+    <Compile Include="Scenes\SceneRenderer.cs" />
+    <Compile Include="Sounds\GameSound.cs" />
+    <Compile Include="Textures\GameTexture.cs" />
+    <Compile Include="GameComponents\Input.cs" />
+    <Compile Include="Helpers\LogHelper.cs" />
+    <Compile Include="GameScreens\MainMenuScreen.cs" />
+    <Compile Include="GameScreens\MenuEntry.cs" />
+    <Compile Include="GameScreens\MenuScreen.cs" />
+    <Compile Include="GameScreens\MessageBoxScreen.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Managers\TextureManager.cs" />
+    <Compile Include="Managers\ScreenManager.cs" />
+    <Compile Include="Objects\Character.cs" />
+    <Compile Include="Objects\Enemy.cs" />
+    <Compile Include="Objects\MoveableObject.cs" />
+    <Compile Include="Objects\Player.cs" />
+    <Compile Include="Objects\Shot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <None Include="Strings\StringsSpanish.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Strings\StringsEnglish.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\100\XNAGifAnimation\GifAnimation\GifAnimation.csproj">
+      <Project>{76B7215D-8172-4FF9-A1A9-4989B0D4C15B}</Project>
+      <Name>GifAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinnedModel\SkinnedModel.csproj">
+      <Project>{7ACB9E35-3EEE-4AF6-922F-5E840642DB33}</Project>
+      <Name>SkinnedModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetalSpaceContent\MetalSpaceContent.contentproj">
+      <Name>MetalSpaceContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

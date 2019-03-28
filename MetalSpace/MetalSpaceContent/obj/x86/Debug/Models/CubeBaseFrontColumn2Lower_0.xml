@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontColumn2Lower.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>pCube2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>polySurface1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:MeshContent">
+                <Name>polySurface3</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                <Positions>-0.5 -0.5 0.5 0.5 -0.5 0.5 -0.19882822 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5 -0.277285039 -0.369740725 0.448605 0.277285039 -0.369740725 0.448605 -0.277285039 -0.4042551 0.37582165 0.277285039 -0.4042551 0.37582165 0.110264182 0.5007563 -0.03661523 -0.110264182 0.5007563 -0.03661523 0.19882822 0.5 -0.5 0.19882822 0.5 0.03616813 0.110264182 0.5 0.03616813 -0.110264182 0.5 0.03616813 -0.19882822 0.5 0.03616813</Positions>
+                <Geometry>
+                  <Batch>
+                    <Material>#Resource1</Material>
+                    <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 28 31 30 34 33 32 32 35 34 38 37 36 36 39 38</Indices>
+                    <Vertices>
+                      <PositionIndices>7 8 9 10 3 4 1 0 1 4 11 12 3 0 15 2 0 1 6 5 1 12 13 6 15 0 5 14 5 6 8 7 6 13 9 8 14 5 7 10</PositionIndices>
+                      <Channels>
+                        <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0.41469276 0.9099615 0 0.41469276 0.9099615 0 0.41469276 0.9099615 0 0.41469276 0.9099615 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9575169 0.2883771 0 0.9575169 0.288377076 0 0.9575169 0.288377076 0 0.957516968 0.2883771 0 -0.9575169 0.2883771 0 -0.9575169 0.288377166 0 -0.957516968 0.288377136 0 -0.9575169 0.2883771 0 0 0.367023617 0.930211663 0 0.367023617 0.930211663 0 0.3670236 0.9302116 0 0.3670236 0.9302116 0.0312434863 0.430562228 0.902020037 0.0312434845 0.430562258 0.9020199 0.0312434826 0.4305622 0.9020199 0.0312434845 0.4305622 0.90202 -0.0312434845 0.4305623 0.9020199 -0.0312434845 0.4305623 0.9020199 -0.0312434845 0.4305623 0.90202 -0.0312434826 0.430562228 0.9020199 0 0.903555155 -0.428471953 0 0.903555155 -0.428471953 0 0.903555155 -0.428471953 0 0.903555155 -0.428471953 -0.9851283 -0.167378426 0.0388163663 -0.985128343 -0.167378455 0.03881637 -0.9851282 -0.1673784 0.03881636 -0.985128343 -0.167378426 0.0388163626 0.9851283 -0.16737847 0.03881637 0.985128343 -0.16737847 0.0388163663 0.9851282 -0.16737844 0.0388163626 0.9851284 -0.167378455 0.03881637</VertexChannel>
+                        <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.0618641563 0.653972149 0.25056535 0.653972149 0.193733871 0.346027851 0.118695624 0.346027851 0.00188161107 0.998007953 0.342147261 0.998007953 0.342147261 0.6577423 0.00188161107 0.6577423 0.3481585 0.998007953 0.6884241 0.998007953 0.6884241 0.6577423 0.505984545 0.6577423 0.6024214 0.653972 0.942687035 0.653972 0.784860969 0.3137064 0.6024214 0.3137064 0.256360531 0.653972 0.5966262 0.653972 0.520844 0.6096493 0.3321428 0.6096493 0.5966262 0.653972 0.494147778 0.3137064 0.4640125 0.3137064 0.520844 0.6096493 0.358838946 0.3137064 0.256360531 0.653972 0.3321428 0.6096493 0.388974279 0.3137064 0.34447664 0.121235013 0.34447664 0.309936225 0.36924234 0.309936225 0.36924234 0.121235013 0.166985378 0.330513537 0.0266472828 0.034570694 0.00188161049 0.03431332 0.1422197 0.342257619 0.3136093 0.00224930048 0.173271164 0.2981922 0.198036864 0.309936225 0.338374972 0.00199192762</VertexChannel>
+                      </Channels>
+                    </Vertices>
+                  </Batch>
+                </Geometry>
+              </Child>
+              <Child>
+                <Name>polySurface4</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                <Children>
+                  <Child>
+                    <Name>transform4</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+              <Child>
+                <Name>transform2</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>polySurface2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>transform3</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>transform1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pCube3</Name>
+        <Transform>0.9999893 -0.004485674 0.00116912834 0 0.00757979741 1.51585448 -0.667238057 0 0.000737088558 0.402868 0.9152578 0 -0.00173301727 0.048941154 0.223908037 1</Transform>
+        <Positions>-0.276554942 -0.30077076 0.06425748 0.27686137 -0.30077076 0.06425748 -0.112520859 0.290404916 0.03666307 0.1122715 0.290404916 0.03666307 -0.112649992 0.3122912 -0.04623321 0.112142362 0.3122912 -0.04623321 -0.2765813 -0.295288861 0.0105957631 0.276835024 -0.295288861 0.0105957631</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource2</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2 2 3 5 4 4 5 7 6 6 7 1 0 1 7 5 3 6 0 2 4</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0.0466264077 0.9989124 0 0.0466264039 0.9989124 0 0.0466264077 0.998912454 0 0.0466264077 0.9989124 0 0.9668692 0.255272657 0 0.9668692 0.255272657 0 0.9668691 0.255272657 0 0.9668691 0.255272657 0 -0.09312684 -0.9956543 0 -0.09312685 -0.9956543 0 -0.09312684 -0.9956542 0 -0.09312683 -0.995654166 0 -0.9948225 -0.101627633 0 -0.9948225 -0.10162764 0 -0.9948225 -0.101627633 0 -0.9948225 -0.10162764 0.9619948 0.267952234 0.052606158 0.9619949 0.267952234 0.052606158 0.961994946 0.267952263 0.0526061654 0.9619949 0.267952234 0.052606158 -0.96212703 0.2670733 0.05462076 -0.96212703 0.2670733 0.05462076 -0.96212703 0.2670733 0.05462076 -0.96212703 0.2670733 0.05462076</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.625 1 0.875 1 0.875 0.75 0.625 0.75 0.125 1 0.375 1 0.375 0.75 0.125 0.75</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert3</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontColumn2Lower.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontColumn2Lower.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0 0.8 0</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0.823514163 1 0.823514163</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeBaseFrontColumn2LowerTexture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

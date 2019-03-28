@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pCube1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeHall1.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>-1 0 -1.22464685E-16 0 0 1 0 0 1.22464685E-16 0 -1 0 0 0 0 1</Transform>
+    <Positions>-0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.2273612 0.5 0.5 0.5 0.5 -0.5 0.227361441 -0.5000005 0.5 0.500000238 -0.5000005 -0.5 -0.5 -0.5 0.5 -0.5 -0.5 0 0.5 0.5 0 0.5 -0.5</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 4 3 0 7 6 5 5 8 7 11 10 9 9 12 11 13 12 9 16 15 14 14 17 16 20 19 18 18 21 20 24 23 22 22 25 24 28 27 26 26 29 28</Indices>
+        <Vertices>
+          <PositionIndices>2 0 1 3 8 8 9 4 2 6 4 9 5 7 0 6 7 1 3 1 7 5 4 6 0 2 9 8 3 5</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.478732228 0.877961 1.04661069E-07 -0.4787322 0.877961 1.04661076E-07 -0.478732228 0.877961 1.04661076E-07 -0.478732228 0.877961 1.04661083E-07 0 -2.55857771E-07 -1 0 -2.55857742E-07 -1 0 -2.55857771E-07 -1 0 -2.55857742E-07 -1 0 -2.55857771E-07 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.99999994 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -0.99999994 0 0 -1 0 0 -2.38418522E-07 1 1.19209261E-07 -2.38418536E-07 1 1.19209268E-07 -2.38418536E-07 1 1.19209268E-07 -2.38418522E-07 1 1.19209261E-07</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.276801944 0.425085545 0.276801944 0.664747238 0.6062968 0.664747238 0.6062968 0.335252464 0.441549361 0.335252464 0.135724679 0.998007953 0.135724679 0.6735035 0.001879401 0.633433938 0.001879401 0.998007953 0.6120851 0.335252345 0.6120851 0.5749142 0.776832461 0.6647471 0.941579938 0.664747238 0.941579938 0.335252345 0.001879401 0.00199198723 0.001879401 0.331486762 0.3313742 0.331486762 0.3313742 0.00199198723 0.6680506 0.66851306 0.3622041 0.66851306 0.3622041 0.998007834 0.668050647 0.998007953 0.9147102 0.66851306 0.675048351 0.6685132 0.675048351 0.998007953 0.9147101 0.998007953 0.135724679 0.6735035 0.135724679 0.998007953 0.35502246 0.998007953 0.35502246 0.673735261</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeHall1.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeHall1Texture.jpg</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

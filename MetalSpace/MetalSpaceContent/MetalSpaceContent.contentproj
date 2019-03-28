@@ -1,0 +1,1908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{51C26D99-19E9-4C67-A730-06F73588FCD8}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MetalSpaceContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AnimatedMonster.fbx">
+      <Name>AnimatedMonster</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <ProcessorParameters_DegreesX>-90</ProcessorParameters_DegreesX>
+      <ProcessorParameters_DefaultEffect>SkinnedEffect</ProcessorParameters_DefaultEffect>
+      <ProcessorParameters_MergeAnimations>AnimatedMonsterAttacked.fbx%3bAnimatedMonsterDying.fbx%3bAnimatedMonsterRepeatAttack.fbx%3bAnimatedMonsterStartAttack.fbx%3bAnimatedMonsterWaiting.fbx%3bAnimatedMonsterWakingUp.fbx%3bAnimatedMonsterWalking.fbx</ProcessorParameters_MergeAnimations>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterAttacked.fbx">
+      <Name>AnimatedMonsterAttacked</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterDying.fbx">
+      <Name>AnimatedMonsterDying</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterRepeatAttack.fbx">
+      <Name>AnimatedMonsterRepeatAttack</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterStartAttack.fbx">
+      <Name>AnimatedMonsterStartAttack</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterWaiting.fbx">
+      <Name>AnimatedMonsterWaiting</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterWakingUp.fbx">
+      <Name>AnimatedMonsterWakingUp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedMonsterWalking.fbx">
+      <Name>AnimatedMonsterWalking</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\FontNormal.bmp">
+      <Name>FontNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DialogBackground.png">
+      <Name>DialogBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\SelectedMenuEntry.png">
+      <Name>SelectedMenuEntry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Fonts\FontNormalSelected.png">
+      <Name>FontNormalSelected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DummyTexture25T.png">
+      <Name>DummyTexture25T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DummyTexture50T.png">
+      <Name>DummyTexture50T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DummyTexture10T.png">
+      <Name>DummyTexture10T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DummyTexture15T.png">
+      <Name>DummyTexture15T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Fonts\FontTitle.png">
+      <Name>FontTitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Spacecraft-Body.jpg">
+      <Name>Spacecraft-Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Spacecraft-Metal.jpg">
+      <Name>Spacecraft-Metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Spacecraft-Metal1.jpg">
+      <Name>Spacecraft-Metal1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Spacecraft.fbx">
+      <Name>Spacecraft</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\BWPostProcessor.fx">
+      <Name>BWPostProcessor</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\GaussianBlur.fx">
+      <Name>GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\DummyTexture.png">
+      <Name>DummyTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\BarTexture.png">
+      <Name>BarTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\MenuBackground.png">
+      <Name>MenuBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\SeparationBar.png">
+      <Name>SeparationBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\EasyDifficult.png">
+      <Name>EasyDifficult</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\HardDifficult.png">
+      <Name>HardDifficult</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\NormalDifficult.png">
+      <Name>NormalDifficult</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Layer_1_5_9.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_9</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_1</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_1</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_1</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_2</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_6</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_7</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_5_8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_5_8</Name>
+    </Content>
+    <Content Include="Maps\Map_1_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map_1_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_6</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_7</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_8</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_9.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_9</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_2</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_6</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_7</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_8</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_4_9.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_4_9</Name>
+    </Content>
+    <Content Include="Maps\Map_1_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map_1_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_2</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_9.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_9</Name>
+    </Content>
+    <Content Include="Maps\Map_1_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map_1_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_6</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_7</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_3_8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_3_8</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_9.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_9</Name>
+    </Content>
+    <Content Include="Maps\Map_1_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map_1_1</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_1</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_1_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_1_2</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_8</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_7</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_6</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_4</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_5</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_3</Name>
+    </Content>
+    <Content Include="Maps\Layer_1_2_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_1</Name>
+    </Content>
+    <Compile Include="Textures\CubeMetallic1Texture.jpg">
+      <Name>CubeMetallic1Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeHall1Texture.jpg">
+      <Name>CubeHall1Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeHall2Texture.jpg">
+      <Name>CubeHall2Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeTower1.jpg">
+      <Name>CubeTower1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontMetallic1.jpg">
+      <Name>CubeBaseFrontMetallic1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Microscheme_0.png">
+      <Name>Microscheme_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontMetallic2.jpg">
+      <Name>CubeBaseFrontMetallic2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileLL.png">
+      <Name>TileLL</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileLR.png">
+      <Name>TileLR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileML.png">
+      <Name>TileML</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileMM.png">
+      <Name>TileMM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileMR.png">
+      <Name>TileMR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileUL.png">
+      <Name>TileUL</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\TileUR.png">
+      <Name>TileUR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall.png">
+      <Name>CubeBaseFrontWall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWallLeft.png">
+      <Name>CubeBaseFrontWallLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWallRight.png">
+      <Name>CubeBaseFrontWallRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeTopWall.png">
+      <Name>CubeTopWall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumnLowerTexture.png">
+      <Name>CubeBaseFrontColumnLowerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumnMediumTexture.png">
+      <Name>CubeBaseFrontColumnMediumTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumnTopTexture.png">
+      <Name>CubeBaseFrontColumnTopTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontStaircaseTexture.png">
+      <Name>CubeBaseFrontStaircaseTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsLTexture.png">
+      <Name>CubeBaseFrontWindowsLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsMTexture.png">
+      <Name>CubeBaseFrontWindowsMTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn2LowerTexture.png">
+      <Name>CubeBaseFrontColumn2LowerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWallLimit.png">
+      <Name>CubeBaseFrontWallLimit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2LLTexture.png">
+      <Name>CubeBaseFrontWall2LLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2MLTexture.png">
+      <Name>CubeBaseFrontWall2MLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2ULTexture.png">
+      <Name>CubeBaseFrontWall2ULTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2UMTexture.png">
+      <Name>CubeBaseFrontWall2UMTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2URTexture.png">
+      <Name>CubeBaseFrontWall2URTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2UL2Texture.png">
+      <Name>CubeBaseFrontWall2UL2Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWall2UR2Texture.png">
+      <Name>CubeBaseFrontWall2UR2Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBarRTexture.png">
+      <Name>CubeBaseFrontBarRTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\ExampleGif.gif">
+      <Name>ExampleGif</Name>
+      <Importer>GifAminationImporter</Importer>
+      <Processor>GifAnimationProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\FrontMap.png">
+      <Name>FrontMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Tiles.png">
+      <Name>Tiles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseBox1Texture.png">
+      <Name>CubeBaseBox1Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeLeftBTexture.png">
+      <Name>CubeBaseFrontPipeLeftBTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeLeftGTexture.png">
+      <Name>CubeBaseFrontPipeLeftGTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeNormalBTexture.png">
+      <Name>CubeBaseFrontPipeNormalBTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeNormalGTexture.png">
+      <Name>CubeBaseFrontPipeNormalGTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeRightBTexture.png">
+      <Name>CubeBaseFrontPipeRightBTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontPipeRightGTexture.png">
+      <Name>CubeBaseFrontPipeRightGTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn4LowerTexture.png">
+      <Name>CubeBaseFrontColumn4LowerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn4TopTexture.png">
+      <Name>CubeBaseFrontColumn4TopTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontRampaDownTexture.png">
+      <Name>CubeBaseFrontRampaDownTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontRampaTopTexture.png">
+      <Name>CubeBaseFrontRampaTopTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn5BottomTexture.png">
+      <Name>CubeBaseFrontColumn5BottomTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn5MiddleTexture.png">
+      <Name>CubeBaseFrontColumn5MiddleTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontColumn5TopTexture.png">
+      <Name>CubeBaseFrontColumn5TopTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsCornerTexture.png">
+      <Name>CubeBaseFrontWindowsCornerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsMBTexture.png">
+      <Name>CubeBaseFrontWindowsMBTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsMMTexture.png">
+      <Name>CubeBaseFrontWindowsMMTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsMTTtexture.png">
+      <Name>CubeBaseFrontWindowsMTTtexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontWindowsNormalTexture.png">
+      <Name>CubeBaseFrontWindowsNormalTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\barrel3.jpg">
+      <Name>barrel3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontLightLight.png">
+      <Name>CubeBaseFrontLightLight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontLightMetal.png">
+      <Name>CubeBaseFrontLightMetal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorTexture.png">
+      <Name>CubeBaseFrontDoorTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\MonsterTexture.png">
+      <Name>MonsterTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\InGame.mp3">
+      <Name>InGame</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\Menu.WAV">
+      <Name>Menu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\MonsterAppears.WAV">
+      <Name>MonsterAppears</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\MenuAccept.mp3">
+      <Name>MenuAccept</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\ArmorTexture.png">
+      <Name>ArmorTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\GunTexture.png">
+      <Name>GunTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\ShotTiles.png">
+      <Name>ShotTiles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\LaserShot.mp3">
+      <Name>LaserShot</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\MetalShot.mp3">
+      <Name>MetalShot</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\Running.mp3">
+      <Name>Running</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\EnemyAttacked.mp3">
+      <Name>EnemyAttacked</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CloseButton.png">
+      <Name>CloseButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\InventoryBackground.png">
+      <Name>InventoryBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\EquipmentBackground.png">
+      <Name>EquipmentBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\ArmorObjectTexture.png">
+      <Name>ArmorObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\GunNormalObjectTexture.png">
+      <Name>GunNormalObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\GridBackground.png">
+      <Name>GridBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\LaserShotObjectTexture.png">
+      <Name>LaserShotObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\NormalShotObjectTexture.png">
+      <Name>NormalShotObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CardKey.png">
+      <Name>CardKey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\Hurt.wav">
+      <Name>Hurt</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\EnemyDead.mp3">
+      <Name>EnemyDead</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\EnemyPlayerDetected.mp3">
+      <Name>EnemyPlayerDetected</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\PlayerDead.mp3">
+      <Name>PlayerDead</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\PlayerClimbingLadder.mp3">
+      <Name>PlayerClimbingLadder</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\DeadBackground.jpg">
+      <Name>DeadBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\ParticleTexture.png">
+      <Name>ParticleTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\MenuSelect.wav">
+      <Name>MenuSelect</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\PointsReceived.wav">
+      <Name>PointsReceived</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\BootsTexture.png">
+      <Name>BootsTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Helmet2Texture.png">
+      <Name>Helmet2Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\AmmoLaserTexture.jpg">
+      <Name>AmmoLaserTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\AmmoNormalTexture.jpg">
+      <Name>AmmoNormalTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\BootsObjectTexture.png">
+      <Name>BootsObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\HelmetObjectTexture.png">
+      <Name>HelmetObjectTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\PickedObject.wav">
+      <Name>PickedObject</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\LoadingBackground.png">
+      <Name>LoadingBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\LifeBar.png">
+      <Name>LifeBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Wallpaper.png">
+      <Name>Wallpaper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground1.png">
+      <Name>CubeBaseFrontBackground1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground2.png">
+      <Name>CubeBaseFrontBackground2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground3.png">
+      <Name>CubeBaseFrontBackground3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground4.png">
+      <Name>CubeBaseFrontBackground4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground4B.png">
+      <Name>CubeBaseFrontBackground4B</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground5.png">
+      <Name>CubeBaseFrontBackground5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground6.png">
+      <Name>CubeBaseFrontBackground6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground7.png">
+      <Name>CubeBaseFrontBackground7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontBackground8.png">
+      <Name>CubeBaseFrontBackground8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\balls1.png">
+      <Name>balls1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\prototype-ts.jpg">
+      <Name>prototype-ts</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\1-cf-texture.png">
+      <Name>1-cf-texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Carbon.png">
+      <Name>Carbon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Semisphere.png">
+      <Name>Semisphere</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Tube.jpg">
+      <Name>Tube</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontAdornoTexture.png">
+      <Name>CubeBaseFrontAdornoTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\box.jpg">
+      <Name>box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\stretcher.jpg">
+      <Name>stretcher</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontTechoTexture.png">
+      <Name>CubeBaseFrontTechoTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorBLTexture.png">
+      <Name>CubeBaseFrontDoorBLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorBRTexture.png">
+      <Name>CubeBaseFrontDoorBRTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorMLTexture.png">
+      <Name>CubeBaseFrontDoorMLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorMMTexture.png">
+      <Name>CubeBaseFrontDoorMMTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorMRTexture.png">
+      <Name>CubeBaseFrontDoorMRTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorTLTexture.png">
+      <Name>CubeBaseFrontDoorTLTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorTMTexture.png">
+      <Name>CubeBaseFrontDoorTMTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\CubeBaseFrontDoorTRTexture.png">
+      <Name>CubeBaseFrontDoorTRTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Layer_1_2_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Layer_1_2_2</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Map_1_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map_1_2</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeMetallic1.fbx">
+      <Name>CubeMetallic1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeHall1.fbx">
+      <Name>CubeHall1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeHall2.fbx">
+      <Name>CubeHall2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeTower1.fbx">
+      <Name>CubeTower1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeTower2.fbx">
+      <Name>CubeTower2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontMetallic1.fbx">
+      <Name>CubeBaseFrontMetallic1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseTopMetallic1.fbx">
+      <Name>CubeBaseTopMetallic1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseCornerMetallic1.fbx">
+      <Name>CubeBaseCornerMetallic1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontElectronic1.fbx">
+      <Name>CubeBaseFrontElectronic1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontMetallic2.fbx">
+      <Name>CubeBaseFrontMetallic2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseTopGroundLL.fbx">
+      <Name>CubeBaseTopGroundLL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundLR.fbx">
+      <Name>CubeBaseTopGroundLR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundML.fbx">
+      <Name>CubeBaseTopGroundML</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundMM.fbx">
+      <Name>CubeBaseTopGroundMM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundMR.fbx">
+      <Name>CubeBaseTopGroundMR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundUL.fbx">
+      <Name>CubeBaseTopGroundUL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseTopGroundUR.fbx">
+      <Name>CubeBaseTopGroundUR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWall.fbx">
+      <Name>CubeBaseFrontWall</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWallLeft.fbx">
+      <Name>CubeBaseFrontWallLeft</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWallRight.fbx">
+      <Name>CubeBaseFrontWallRight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseTopWall.fbx">
+      <Name>CubeBaseTopWall</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumnLower.fbx">
+      <Name>CubeBaseFrontColumnLower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumnMedium.fbx">
+      <Name>CubeBaseFrontColumnMedium</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumnTop.fbx">
+      <Name>CubeBaseFrontColumnTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontLadder.fbx">
+      <Name>CubeBaseFrontLadder</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBasefrontWindowsL.fbx">
+      <Name>CubeBasefrontWindowsL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBasefrontWindowsM.fbx">
+      <Name>CubeBasefrontWindowsM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBasefrontWindowsR.fbx">
+      <Name>CubeBasefrontWindowsR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumn2Lower.fbx">
+      <Name>CubeBaseFrontColumn2Lower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumn2Top.fbx">
+      <Name>CubeBaseFrontColumn2Top</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontStaircase1.fbx">
+      <Name>CubeBaseFrontStaircase1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontStaircase2.fbx">
+      <Name>CubeBaseFrontStaircase2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontStaircase3.fbx">
+      <Name>CubeBaseFrontStaircase3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumn2Medium.fbx">
+      <Name>CubeBaseFrontColumn2Medium</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\RenderGBuffer.fx">
+      <Name>RenderGBuffer</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\DirectionalLight.fx">
+      <Name>DirectionalLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\PointLight.fx">
+      <Name>PointLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Effects\CombineFinal.fx">
+      <Name>CombineFinal</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\sphere.x">
+      <Name>sphere</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWallLimit.fbx">
+      <Name>CubeBaseFrontWallLimit</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWall2LL.fbx">
+      <Name>CubeBaseFrontWall2LL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2LM.fbx">
+      <Name>CubeBaseFrontWall2LM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2LR.fbx">
+      <Name>CubeBaseFrontWall2LR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2ML.fbx">
+      <Name>CubeBaseFrontWall2ML</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2MM.fbx">
+      <Name>CubeBaseFrontWall2MM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2MR.fbx">
+      <Name>CubeBaseFrontWall2MR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2UL.fbx">
+      <Name>CubeBaseFrontWall2UL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2UM.fbx">
+      <Name>CubeBaseFrontWall2UM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWall2UR.fbx">
+      <Name>CubeBaseFrontWall2UR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWall2UR2.fbx">
+      <Name>CubeBaseFrontWall2UR2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWallUL2.fbx">
+      <Name>CubeBaseFrontWallUL2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWall2UL2.fbx">
+      <Name>CubeBaseFrontWall2UL2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontBarL.fbx">
+      <Name>CubeBaseFrontBarL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBarM.fbx">
+      <Name>CubeBaseFrontBarM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBarR.fbx">
+      <Name>CubeBaseFrontBarR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Example.fbx">
+      <Name>Example</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontStaircase2-1.fbx">
+      <Name>CubeBaseFrontStaircase2-1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontStaircase2-2.fbx">
+      <Name>CubeBaseFrontStaircase2-2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\100\XNAGifAnimation\GifAnimation.Pipeline\GifAnimation.Pipeline.csproj">
+      <Project>{9C683759-D9CF-423E-87B1-153097BE2820}</Project>
+      <Name>GifAnimation.Pipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinnedModelPipeLine\SkinnedModelPipeLine.csproj">
+      <Project>{E77AA9E1-C5CD-4E03-94A6-6A78F96BC922}</Project>
+      <Name>SkinnedModelPipeLine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseBox1.fbx">
+      <Name>CubeBaseBox1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Example1.fbx">
+      <Name>Example1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontPipeLeftB.fbx">
+      <Name>CubeBaseFrontPipeLeftB</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeLeftG.fbx">
+      <Name>CubeBaseFrontPipeLeftG</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeNormalB.fbx">
+      <Name>CubeBaseFrontPipeNormalB</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeNormalG.fbx">
+      <Name>CubeBaseFrontPipeNormalG</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeRightB.fbx">
+      <Name>CubeBaseFrontPipeRightB</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeRightG.fbx">
+      <Name>CubeBaseFrontPipeRightG</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontPipeCurvB.fbx">
+      <Name>CubeBaseFrontPipeCurvB</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontPipeCurvG.fbx">
+      <Name>CubeBaseFrontPipeCurvG</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumn4Lower.fbx">
+      <Name>CubeBaseFrontColumn4Lower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumn4Top.fbx">
+      <Name>CubeBaseFrontColumn4Top</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontRampaTop.fbx">
+      <Name>CubeBaseFrontRampaTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontRampaDown.fbx">
+      <Name>CubeBaseFrontRampaDown</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumn5Bottom.fbx">
+      <Name>CubeBaseFrontColumn5Bottom</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumn5Middle.fbx">
+      <Name>CubeBaseFrontColumn5Middle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumn5Top.fbx">
+      <Name>CubeBaseFrontColumn5Top</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontWindowsCorner.fbx">
+      <Name>CubeBaseFrontWindowsCorner</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWindowsMB.fbx">
+      <Name>CubeBaseFrontWindowsMB</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWindowsMM.fbx">
+      <Name>CubeBaseFrontWindowsMM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWindowsMT.fbx">
+      <Name>CubeBaseFrontWindowsMT</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontWindowsNormal.fbx">
+      <Name>CubeBaseFrontWindowsNormal</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontBarrel.fbx">
+      <Name>CubeBaseFrontBarrel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontLight.fbx">
+      <Name>CubeBaseFrontLight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontDoor1.fbx">
+      <Name>CubeBaseFrontDoor1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontDoorBL.fbx">
+      <Name>CubeBaseFrontDoorBL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorBR.fbx">
+      <Name>CubeBaseFrontDoorBR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorML.fbx">
+      <Name>CubeBaseFrontDoorML</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorMM.fbx">
+      <Name>CubeBaseFrontDoorMM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorMR.fbx">
+      <Name>CubeBaseFrontDoorMR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorTL.fbx">
+      <Name>CubeBaseFrontDoorTL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorTM.fbx">
+      <Name>CubeBaseFrontDoorTM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontDoorTR.fbx">
+      <Name>CubeBaseFrontDoorTR</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Player.fbx">
+      <Name>Player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AnimatedPlayer.fbx">
+      <Name>AnimatedPlayer</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <ProcessorParameters_MergeAnimations>AnimatedPlayerClimbing.fbx%3bAnimatedPlayerRunningH.fbx%3bAnimatedPlayerRunningD.fbx%3bAnimatedPlayerWaiting.fbx%3bAnimatedPlayerAirJump.fbx%3bAnimatedPlayerEndJump.fbx%3bAnimatedPlayerReload.fbx%3bAnimatedPlayerShootUp.fbx%3bAnimatedPlayerStartJump.fbx</ProcessorParameters_MergeAnimations>
+      <ProcessorParameters_DegreesX>-90</ProcessorParameters_DegreesX>
+      <ProcessorParameters_DefaultEffect>SkinnedEffect</ProcessorParameters_DefaultEffect>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AnimatedPlayerClimbing.fbx">
+      <Name>AnimatedPlayerClimbing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerRunningD.fbx">
+      <Name>AnimatedPlayerRunningD</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerRunningH.fbx">
+      <Name>AnimatedPlayerRunningH</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerWaiting.fbx">
+      <Name>AnimatedPlayerWaiting</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AnimatedPlayerAirJump.fbx">
+      <Name>AnimatedPlayerAirJump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerEndJump.fbx">
+      <Name>AnimatedPlayerEndJump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerReload.fbx">
+      <Name>AnimatedPlayerReload</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerShootUp.fbx">
+      <Name>AnimatedPlayerShootUp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AnimatedPlayerStartJump.fbx">
+      <Name>AnimatedPlayerStartJump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\GunNormal.fbx">
+      <Name>GunNormal</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\ColorMap.tga">
+      <Name>ColorMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ArmorObject.fbx">
+      <Name>ArmorObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\BootsObject.fbx">
+      <Name>BootsObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\GunNormalObject.fbx">
+      <Name>GunNormalObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\HelmetObject.fbx">
+      <Name>HelmetObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AmmoLaserObject.fbx">
+      <Name>AmmoLaserObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\AmmoNormalObject.fbx">
+      <Name>AmmoNormalObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CardKeyObject.fbx">
+      <Name>CardKeyObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontBackground1.fbx">
+      <Name>CubeBaseFrontBackground1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground10.fbx">
+      <Name>CubeBaseFrontBackground10</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground11.fbx">
+      <Name>CubeBaseFrontBackground11</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground12.fbx">
+      <Name>CubeBaseFrontBackground12</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground13.fbx">
+      <Name>CubeBaseFrontBackground13</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground14.fbx">
+      <Name>CubeBaseFrontBackground14</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground15.fbx">
+      <Name>CubeBaseFrontBackground15</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground16.fbx">
+      <Name>CubeBaseFrontBackground16</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground17.fbx">
+      <Name>CubeBaseFrontBackground17</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground2.fbx">
+      <Name>CubeBaseFrontBackground2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground3.fbx">
+      <Name>CubeBaseFrontBackground3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground4.fbx">
+      <Name>CubeBaseFrontBackground4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground5.fbx">
+      <Name>CubeBaseFrontBackground5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground6.fbx">
+      <Name>CubeBaseFrontBackground6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground7.fbx">
+      <Name>CubeBaseFrontBackground7</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground8.fbx">
+      <Name>CubeBaseFrontBackground8</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontBackground9.fbx">
+      <Name>CubeBaseFrontBackground9</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontColumnN1.fbx">
+      <Name>CubeBaseFrontColumnN1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumnN2.fbx">
+      <Name>CubeBaseFrontColumnN2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumnN3.fbx">
+      <Name>CubeBaseFrontColumnN3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\CubeBaseFrontColumnN4.fbx">
+      <Name>CubeBaseFrontColumnN4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontAdorno.fbx">
+      <Name>CubeBaseFrontAdorno</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontBox.fbx">
+      <Name>CubeBaseFrontBox</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontAdorno2.fbx">
+      <Name>CubeBaseFrontAdorno2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CubeBaseFrontTecho.fbx">
+      <Name>CubeBaseFrontTecho</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

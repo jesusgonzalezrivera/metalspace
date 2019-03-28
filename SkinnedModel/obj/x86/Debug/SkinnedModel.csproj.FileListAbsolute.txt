@@ -1,0 +1,12 @@
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\ReyLith\Documents\Visual Studio 2010\Projects\MetalSpace\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb

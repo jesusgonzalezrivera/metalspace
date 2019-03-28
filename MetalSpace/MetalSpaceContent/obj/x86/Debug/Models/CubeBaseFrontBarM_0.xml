@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontBarM.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>group1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+      </Child>
+      <Child>
+        <Name>group2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+      </Child>
+      <Child>
+        <Name>group3</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform6</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly3</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform10</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly4</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform9</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly5</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform8</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly6</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly7</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly8</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly9</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform5</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>nurbsToPoly10</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform7</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>polySurface2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Positions>0.559257865 0.25 -0.0553426035 -0.5 0.25 -0.0558154732 0.559257865 0.232855856 0.04160787 -0.5 0.232855856 0.0411350019 0.559257865 0.200463623 -0.0140459547 -0.5 0.200463623 -0.0145188263 0.559257865 0.217714965 -0.04368976 -0.5 0.217714965 -0.04416263 0.559257865 0.206487566 0.0196996164 -0.5 0.206487566 0.0192267448 0.559257865 0.293512434 0.0196996164 -0.5 0.293512434 0.0192267448 0.559257865 0.267144144 0.04160787 -0.5 0.267144144 0.0411350019 0.559257865 0.299536377 -0.0140459547 -0.5 0.299536377 -0.0145188263 0.559257865 0.282285035 -0.04368976 -0.5 0.282285035 -0.04416263 0.559257865 -0.0881081745 -0.0553426035 -0.5 -0.0881081745 -0.0558154732 0.559257865 -0.105252318 0.04160787 -0.5 -0.105252318 0.0411350019 0.559257865 -0.137644559 -0.0140459547 -0.5 -0.137644559 -0.0145188263 0.559257865 -0.120393217 -0.04368976 -0.5 -0.120393217 -0.04416263 0.559257865 -0.131620616 0.0196996164 -0.5 -0.131620616 0.0192267448 0.559257865 -0.04459575 0.0196996164 -0.5 -0.04459575 0.0192267448 0.559257865 -0.07096404 0.04160787 -0.5 -0.07096404 0.0411350019 0.559257865 -0.0385717936 -0.0140459547 -0.5 -0.0385717936 -0.0145188263 0.559257865 -0.05582314 -0.04368976 -0.5 -0.05582314 -0.04416263</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 11 8 12 12 13 11 7 4 9 9 10 7 16 15 14 14 17 16 17 14 5 5 6 17 19 18 15 15 16 19 3 0 18 18 19 3 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 28 31 30 31 28 32 32 33 31 27 24 29 29 30 27 36 35 34 34 37 36 37 34 25 25 26 37 39 38 35 35 36 39 23 20 38 38 39 23</Indices>
+            <Vertices>
+              <PositionIndices>16 0 1 17 8 2 3 9 6 4 5 7 0 1 12 10 11 13 14 15 34 18 19 35 26 20 21 27 24 22 23 25 18 19 30 28 29 31 32 33</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.000342874118 0.6403817 -0.7680568 0.00044641865 0 -0.9999999 0.000446418679 0 -0.99999994 0.0003429097 0.640286148 -0.768136442 -0.0002245939 -0.864226043 0.503103554 -0.000419873075 -0.3396752 0.940542758 -0.00041986315 -0.339736938 0.9405204 -0.000224528849 -0.8643109 0.5029578 0.00034287406 -0.6403815 -0.76805687 7.781385E-05 -0.9846911 -0.174308464 7.789863E-05 -0.984657466 -0.174498424 0.000342909625 -0.640286 -0.7681365 0.00044641865 0 -0.9999999 0.000446418679 0 -0.99999994 -0.000419873 0.3396751 0.940542758 -0.00022459391 0.864226162 0.503103435 -0.000224528849 0.864311 0.5029577 -0.000419863034 0.3397368 0.9405204 7.781385E-05 0.984690964 -0.174308911 7.789862E-05 0.984657347 -0.174498826 0.000342874962 0.6403816 -0.76805687 0.000446416874 0 -0.9999999 0.0004464169 0 -0.99999994 0.0003429105 0.640286 -0.768136442 -0.00022459474 -0.864226 0.503103733 -0.000419873977 -0.3396752 0.9405427 -0.000419864 -0.3397369 0.940520465 -0.0002245297 -0.864310861 0.50295794 0.0003428723 -0.640381455 -0.7680568 7.781385E-05 -0.9846911 -0.174308464 7.789863E-05 -0.984657466 -0.174498424 0.000342907879 -0.640285969 -0.7681365 0.000446416874 0 -0.9999999 0.0004464169 0 -0.99999994 -0.000419873162 0.339675248 0.9405427 -0.000224593939 0.864226043 0.503103733 -0.000224528892 0.864310861 0.50295794 -0.0004198632 0.339736938 0.9405204 7.781464E-05 0.984691143 -0.174308449 7.78994145E-05 0.9846575 -0.174498349</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.8891749 1 1 1 1 0 0.8891749 0 0.333536 1 0.444603384 1 0.444603384 0 0.333536 0 0.110825144 1 0.222097471 1 0.222097471 0 0.110825144 0 0 1 0 0 0.5553966 1 0.666464 1 0.666464 0 0.5553966 0 0.777902544 1 0.777902544 0 0.8891749 1 1 1 1 0 0.8891749 0 0.333536 1 0.444603384 1 0.444603384 0 0.333536 0 0.110825144 1 0.222097471 1 0.222097471 0 0.110825144 0 0 1 0 0 0.5553966 1 0.666464 1 0.666464 0 0.5553966 0 0.777902544 1 0.777902544 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CubeBaseFrontBarM.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CubeBaseFrontBarRTexture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

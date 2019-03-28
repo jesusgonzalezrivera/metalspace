@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CardKeyObject.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>Boot:Box01</Name>
+        <Transform>0.00617982727 0 -0.0006512584 0 0 0.00512687955 0 0 0.0005373185 0 0.005098645 0 0.172141165 -0.0179690886 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform2</Name>
+            <Transform>1 0 6.24904928E-09 0 0 1 0 0 8.688873E-09 0 0.99999994 0 7.23424364E-07 8.760867E-08 2.21038533E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Box01</Name>
+        <Transform>-0.00619734265 0 -0.00045535143 0 0 0.00512687955 0 0 -0.000375686155 0 0.00511309644 0 -0.170821145 -0.0179690886 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform1</Name>
+            <Transform>1 0 3.06541814E-09 0 9.74971435E-26 1 1.22464672E-16 0 1.59558367E-09 -1.22464685E-16 1 0 -2.22636481E-06 8.760867E-08 1.71842359E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Boots</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>transform3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Player14:control_player</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+      </Child>
+      <Child>
+        <Name>Helmet2:Player14:group1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Player14:group3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:Player14:group4</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Player14:group2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Player14:group5</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pPlane1</Name>
+        <Transform>1 0 0 0 0 6.123234E-17 1 0 0 -1 6.123234E-17 0 0 -3.51611376 12.1214828 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform15</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 8.881784E-16 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pPlane2</Name>
+        <Transform>1 0 0 0 0 6.123234E-17 1 0 0 -1.99821651 1.22355471E-16 0 -0.5002812 -3.006867 9.72177 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform1</Name>
+            <Transform>1 0 0 0 0 1 1.19499884E-24 0 0 6.194288E-24 1 0 0 0 2.45999843E-08 1</Transform>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:transform4</Name>
+            <Transform>1 0 0 0 0 1 1.19499884E-24 0 0 6.194288E-24 1 0 0 0 2.45999843E-08 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pSphere3</Name>
+        <Transform>3.94722283E-17 -0.644630432 0 0 5.36901561E-17 3.28757374E-33 0.8768268 0 -0.979 -5.994646E-17 5.994646E-17 0 0 5.27684069 -0.121 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform2</Name>
+            <Transform>1 -1.330211E-40 -2.347822E-24 0 -1.386795E-40 0.99999994 -3.16281553E-24 0 2.528711E-24 -8.620672E-27 1 0 3.584171E-08 3.60877728E-09 9.84317839E-24 1</Transform>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:transform3</Name>
+            <Transform>1 -1.330211E-40 -2.347822E-24 0 -1.386795E-40 0.99999994 -3.16281553E-24 0 2.528711E-24 -8.620672E-27 1 0 3.584171E-08 3.60877728E-09 9.84317839E-24 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:polySurface1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:Helmet1:transform14</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:Helmet1:transform13</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:transform5</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:polySurface2</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform12</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pCylinder1</Name>
+        <Transform>-0.209029272 0.9775592 0.026167186 0 -0.9632013 -0.201188251 -0.17823191 0 -0.168967709 -0.0624599531 0.9836405 0 -10.8068218 0.10579741 -3.87379718 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform11</Name>
+            <Transform>1 8.078906E-09 -4.206535E-10 0 -4.576813E-09 1 4.0006185E-09 0 -1.51198332E-09 -4.78234E-10 1 0 -1.073731E-08 -6.633438E-08 6.116084E-08 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pCylinder2</Name>
+        <Transform>0.88515985 0 0 0 0 5.42004075E-17 0.88515985 0 0 -0.88515985 5.42004075E-17 0 0.00338273961 3.47289014 -11.8165741 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform10</Name>
+            <Transform>0.99999994 0 0 0 0 1.00000012 -7.819497E-25 0 0 7.819497E-25 1.00000012 0 -2.00164219E-10 -1.35337541E-06 -2.88025319E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pCylinder3</Name>
+        <Transform>-0.234316736 0.972160339 9.13197553E-18 0 -0.956447065 -0.230529428 -0.1790675 0 -0.174082324 -0.0419585146 0.98383677 0 -11.921833 -0.104598649 -3.99786234 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform9</Name>
+            <Transform>1 -1.16590488E-08 -1.7797146E-09 0 2.14188711E-09 1 -8.662006E-09 0 3.89843519E-10 2.01124939E-09 1 0 1.49637955E-07 -3.92512845E-07 -1.491245E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pCylinder4</Name>
+        <Transform>0.198102862 0.980010033 0.0183194838 0 -0.966345668 0.192143291 0.171046957 0 0.16410777 -0.0515878461 0.9850926 0 11.12743 0.10579741 -3.87379718 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform8</Name>
+            <Transform>1 -1.13513532E-10 -7.5033757E-10 0 2.636305E-09 1 2.63680255E-09 0 -2.19214824E-09 -6.41218545E-09 1 0 2.73115148E-08 1.11776135E-08 -4.64780356E-08 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pCylinder5</Name>
+        <Transform>0.184246466 0.9800603 0.07439844 0 -0.969068944 0.168491542 0.180321947 0 0.164190859 -0.1053209 0.9807899 0 12.3621416 -0.104598649 -4.20406628 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform7</Name>
+            <Transform>1 -2.35614661E-09 2.770886E-09 0 2.205011E-09 1 -2.643402E-09 0 1.86852178E-09 2.61822874E-09 1 0 -1.300685E-07 2.986205E-08 1.034289E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:pPlane3</Name>
+        <Transform>1 0 0 0 0 6.123234E-17 1 0 0 -2.57046986 1.57395887E-16 0 0 0.9443555 11.01585 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:transform6</Name>
+            <Transform>1 0 0 0 0 1 2.36993932E-25 0 0 -3.70490733E-24 1 0 0 0 1.68169856E-09 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:polySurface5</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface6</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:Helmet1:transform17</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface7</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:Helmet1:transform18</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:transform16</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:Helmet1:polySurface8</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface9</Name>
+            <Transform>0.01027364 0 0 0 0 0.0111980764 0 0 0 0 0.0124905221 0 0 1.82744777 -0.00319934078 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:transform2</Name>
+                <Transform>1 0 0 0 0 0.99999994 0 0 0 0 1 0 0 -6.706151E-06 -9.407159E-10 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:polySurface10</Name>
+            <Transform>0.01027364 0 0 0 0 0.0111980764 0 0 0 0 0.0124905221 0 0 1.82744777 -0.00319934078 1</Transform>
+            <Children>
+              <Child>
+                <Name>Helmet2:transform1</Name>
+                <Transform>1 0 0 0 0 0.99999994 0 0 0 0 1 0 0 -6.706151E-06 -9.407159E-10 1</Transform>
+              </Child>
+            </Children>
+          </Child>
+          <Child>
+            <Name>Helmet2:Helmet1:transform19</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:polySurface1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:transform3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child>
+        <Name>Helmet2:pPlane1</Name>
+        <Transform>0.315983564 0 0 0 0 6.123234E-17 1 0 0 -0.07671246 4.69728325E-18 0 -0.000422597834 1.74370718 0.140899226 1</Transform>
+        <Children>
+          <Child>
+            <Name>Helmet2:transform4</Name>
+            <Transform>1 0 0 0 0 1 -2.734828E-23 0 0 1.6181529E-25 1 0 3.385256E-11 1.110223E-16 4.91219E-07 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pCube1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Positions>-0.135630965 0 0.004731596 0.169279337 0 0.004731596 -0.135630965 0.337225318 0.004731596 0.169279337 0.337225318 0.004731596 -0.135630965 0.337225318 -0.00399969658 0.169279337 0.337225318 -0.00399969658 -0.135630965 0 -0.00399969658 0.169279337 0 -0.00399969658</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2 2 3 5 4 4 5 7 6 6 7 1 0 1 7 5 3 6 0 2 4</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00181438215 0.998007953 0.450456649 0.998007953 0.4463344 -0.000196695328 0.004921224 0.00161623955 0.859288454 0.0495399833 0.853474438 -0.07114124 0.862752 -0.09198856 0.8721356 0.0495399833 0.456429273 0.998008 0.996415257 0.998008 1.00042248 0.00295549631 0.4505379 -0.0102100372 0.840853155 0.0495399833 0.829648852 -0.108510613 0.839324951 -0.07729292 0.8537003 0.0495399833 0.926422656 -0.08963549 0.9956228 0.0240654945 0.909006238 0.00199198723 0.8961591 0.00199198723 0.8789274 -0.0461714268 0.904465 -0.0826337337 0.890571 0.00199198723 0.8777238 0.00199198723</VertexChannel>
+                <VertexChannel Name="TextureCoordinate1" ElementType="Framework:Vector2">0.00181438215 0.998007953 0.450456649 0.998007953 0.4463344 -0.000196695328 0.004921224 0.00161623955 0.859288454 0.0495399833 0.853474438 -0.07114124 0.862752 -0.09198856 0.8721356 0.0495399833 0.456429273 0.998008 0.996415257 0.998008 1.00042248 0.00295549631 0.4505379 -0.0102100372 0.840853155 0.0495399833 0.829648852 -0.108510613 0.839324951 -0.07729292 0.8537003 0.0495399833 0.926422656 -0.08963549 0.9956228 0.0240654945 0.909006238 0.00199198723 0.8961591 0.00199198723 0.8789274 -0.0461714268 0.904465 -0.0826337337 0.890571 0.00199198723 0.8777238 0.00199198723</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\amotep\Documents\Visual Studio 2010\Projects\MetalSpace\MetalSpace\MetalSpaceContent\Models\CardKeyObject.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Textures\CardKey.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

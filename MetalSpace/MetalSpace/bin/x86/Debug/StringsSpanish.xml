@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListNameValuePair xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Strings>
+    <NameValuePair Key="menu_ingame_save" Value="Guardar partida" />
+    <NameValuePair Key="equipment_armature" Value="Armadura" />
+    <NameValuePair Key="equipment_armature_type" Value="Tipo" />
+    <NameValuePair Key="menu_ingame_continue" Value="Continuar" />
+    <NameValuePair Key="inventory_total_points" Value="Total puntos: " />
+    <NameValuePair Key="menu_options" Value="Opciones" />
+    <NameValuePair Key="inventory_select_object_equip" Value="Equipar" />
+    <NameValuePair Key="menu_load_empty" Value="No se ha guardado ninguna partida" />
+    <NameValuePair Key="inventory_material_aerogel" Value="Aerogel: " />
+    <NameValuePair Key="inventory_material_debolio" Value="Debolio: " />
+    <NameValuePair Key="equipment_armature_type_suit" Value="Traje" />
+    <NameValuePair Key="menu_load" Value="Cargar partida" />
+    <NameValuePair Key="non_activated" Value="No" />
+    <NameValuePair Key="equipment_armature_type_boots" Value="Botas" />
+    <NameValuePair Key="activated" Value="Si" />
+    <NameValuePair Key="menu_continue" Value="Continuar" />
+    <NameValuePair Key="difficult_hard" Value="Dificil" />
+    <NameValuePair Key="menu_option_category_pad_right" Value="Derecha" />
+    <NameValuePair Key="quality_high" Value="Alta" />
+    <NameValuePair Key="equipment_select_object_unequip" Value="Desequipar" />
+    <NameValuePair Key="menu_option_category_pad_down" Value="Abajo" />
+    <NameValuePair Key="equipment_weapon" Value="Arma" />
+    <NameValuePair Key="menu_option_category_sound_effects_volume" Value="Vol. efectos" />
+    <NameValuePair Key="dead_screen_message" Value="Quieres continuar?" />
+    <NameValuePair Key="menu_new" Value="Nuevo juego" />
+    <NameValuePair Key="equipment_armature_defense" Value="Defensa" />
+    <NameValuePair Key="menu_option_category_video_resolution" Value="Resolucion" />
+    <NameValuePair Key="menu_option_category_pad_action" Value="Accion" />
+    <NameValuePair Key="menu_exit_message" Value="Estas seguro de que deseas salir?" />
+    <NameValuePair Key="menu_option_category_pad_left" Value="Izquierda" />
+    <NameValuePair Key="menu_option_category_pad_attack" Value="Ataque" />
+    <NameValuePair Key="equipment_weapon_power" Value="Potencia" />
+    <NameValuePair Key="menu_option_category_pad_select" Value="Select" />
+    <NameValuePair Key="loading_screen_message" Value="Cargando..." />
+    <NameValuePair Key="menu_option_category_sound_music_volume" Value="Vol. musica" />
+    <NameValuePair Key="inventory_select_object_throw_away" Value="Tirar" />
+    <NameValuePair Key="menu_option_category_video_quality" Value="Calidad" />
+    <NameValuePair Key="menu_option_categories_sound" Value="Sonido" />
+    <NameValuePair Key="menu_ingame_lastsave" Value="Ultimo pt. guard." />
+    <NameValuePair Key="menu_option_category_pad_up" Value="Arriba" />
+    <NameValuePair Key="difficult_normal" Value="Normal" />
+    <NameValuePair Key="menu_exit" Value="Salir" />
+    <NameValuePair Key="menu_option_categories_video" Value="Video" />
+    <NameValuePair Key="equipment_armature_skill" Value="Destreza" />
+    <NameValuePair Key="menu_option_category_video_fullscreen" Value="Pant. completa" />
+    <NameValuePair Key="quality_low" Value="Baja" />
+    <NameValuePair Key="inventory_material_fulereno" Value="Fulereno: " />
+    <NameValuePair Key="cancel" Value="Cancelar" />
+    <NameValuePair Key="menu_option_category_video_vertical_syncronization" Value="Sinc. vertical" />
+    <NameValuePair Key="menu_option_category_pad_sattack" Value="Ataque esp." />
+    <NameValuePair Key="equipment_armature_type_gloves" Value="Guantes" />
+    <NameValuePair Key="equipment_select_object_throw_away" Value="Tirar" />
+    <NameValuePair Key="menu_ingame_exit" Value="Salir" />
+    <NameValuePair Key="equipment_weapon_type" Value="Tipo" />
+    <NameValuePair Key="menu_option_category_pad_start" Value="Start" />
+    <NameValuePair Key="menu_option_categories_pad" Value="Controles" />
+    <NameValuePair Key="inventory_select_object_reload" Value="Recargar" />
+    <NameValuePair Key="dead_screen_no" Value="No" />
+    <NameValuePair Key="difficult_easy" Value="Facil" />
+    <NameValuePair Key="equipment_armature_type_helmet" Value="Casco" />
+    <NameValuePair Key="dead_screen_yes" Value="Si" />
+    <NameValuePair Key="accept" Value="Aceptar" />
+    <NameValuePair Key="menu_option_category_pad_jump" Value="Saltar" />
+    <NameValuePair Key="equipment_weapon_ammo" Value="Municion" />
+    <NameValuePair Key="menu_ingame_options" Value="Opciones" />
+  </Strings>
+</ListNameValuePair>
